@@ -26,7 +26,7 @@ class SelectionPage extends StatelessWidget {
               onPressed: () {
                 // Navigate back to first screen when tapped.
                 // TODO 3: Update code to return to FirstScreen Pop()
-                Navigator.pushReplacementNamed(context, '/');
+                Navigator.pushReplacementNamed(context, '/HomePage');
               },
               child: const Text('Go back!'),
             ),
